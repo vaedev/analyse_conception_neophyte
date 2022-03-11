@@ -1,7 +1,6 @@
-# CHAPITRE I : MCD et développement de projet
+# CHAPITRE I : Introduction 
 
 mots clefs : 
-- introduction
 - recueil du besoin
 - Diagramme des cas d'utilisation
 - Maquettage
@@ -18,10 +17,10 @@ D'autant plus que dans la pratique, il arrive souvent de faire un MCD, de progra
 
 ____
 
-## <center>Partie I Introduction : l'esprit opérationel et le lien entre développement de projet et stratégie.</center>
+## <center>Partie I Introduction : l'esprit opérationel et le développement de projet .</center>
 ____
 
-La première question est de savoir où range on le(s) besoin(s) de l'entreprise :
+La première question est de savoir où range t-on le(s) besoin(s) de l'entreprise :
 
 1. Communiquer ? (site web)
 2. Gérer ? (logiciel de paie, de gestion des achats...)
@@ -29,15 +28,15 @@ La première question est de savoir où range on le(s) besoin(s) de l'entreprise
 4. Vendre (site web, gestion des produits.)
 
 Dans la chaîne de production, nous pouvons voir le cycle suivant :
-- Analyser : comprendre les besoins du client
-- Concevoir: identifier le nécessaire pour répondre aux besoins du client
+- Analyser : comprendre les besoins du client, recueillir un temoignage et des documents interne et externe.
+- Concevoir: identifier le nécessaire pour répondre aux besoins du client, le choix des technologies par exemple.
 - Programmer: réaliser les lignes de code du logiciel.
 
 Les deux parties retrouvables dans les programmes sont :
 1. Les données : les informations vitales du programme
 2. Les traitements : ils correspondent aux différentes actions réalisables sur le programme dont celles manipulant les données.
 
-Toutes ces informations vont nous permettre de créer des diagrammes pertinents pour la réalisation du code. Coder sans y avoir réfléchi est une gageure et il est important d'avoir confiance au plan... Et donc de le concevoir...et d'avoir les moyens de le conçevoir.
+Toutes ces informations vont nous permettre de créer des diagrammes pertinents pour la réalisation du code. Coder sans y avoir réfléchi est une gageure et il est important d'avoir confiance au plan... Et donc de le concevoir...et donc d'avoir les moyens de le conçevoir.
 
 ### <center>**comment créer un logiciel en somme ?**</center>
 
@@ -60,9 +59,7 @@ Toutes ces informations vont nous permettre de créer des diagrammes pertinents 
     - **Description** : Mise en production de la solution et paramétrage de l'outil
     - **Comment** : Mise à disposition des utilisateurs.
 
-Initialiser une de ses étapes avant l'autre augmente les risques de la non-réalisation du projet : choisir une technologie avant d'avoir analysé le système peut donc être fatal : imaginez si vous partez sur du noSQL alors que du SQL aurait été plus pertinent, ou alors avoir négligé le besoin de créer une application plus orienté mobile quand le client vous le précise : vous ne savez pas quoi faire sans avoir effectué les 2 premières étapes sérieusement, acceptez le.
-
-C'est comme dans une guerre : sans information, les probabilités que la retraite soit la meilleure des solutions augmente. Pour ça, des astuces peuvent être mises en place et ont comme nom : la stratégie. La stratégie est un art du mouvement, donc ici nous cherchons à savoir comment nous allons nous mouvoir, seul ou en équipe.
+Initialiser une de ses étapes avant l'autre augmente les risques de la non-réalisation du projet : choisir une technologie avant d'avoir analysé le système peut donc être fatal : imaginez si vous partez sur du noSQL alors que du SQL aurait été plus pertinent, ou alors avoir négligé le besoin de créer une application plus orienté mobile quand le client vous le précise : **vous ne savez pas quoi faire sans avoir effectué les 2 premières étapes sérieusement, acceptez le.**
 
 Pour une analogie très simple, si le développeur se retrouve devant son éditeur de code et ne sait pas :
 - comment agencer son planning ?
@@ -72,7 +69,6 @@ Pour une analogie très simple, si le développeur se retrouve devant son édite
 
 ... Alors toute tentative de code est au mieux une perte de temps, au pire un désastre, une défaite et une souffrance. On apprend de ses échecs n'est ce pas ? Mais un échec reste une souffrance et affaiblit. Arrêtez de croire que de vous cogner la tête contre les murs vous rendra plus fort : c'est stupide et le courage ne prédomine pas dans une victoire.
 
-Voilà pourquoi faire le lien entre la stratégie et le développement. Pour plus d'informations, voir le point sur la stratégie.
 ### <center>**les cycles de vie possibles**</center>
 
 Les cycles de vie sont les approches organisationelle possible, en voici quelques une :
@@ -92,14 +88,13 @@ Les cycles de vie sont les approches organisationelle possible, en voici quelque
     - reprend le modèle en cascade
     - propose une réactivité importante sur la réalisation de l'outil.$
 
-Quand vous travaillez seul vous êtes le seul juge de ce que vous voulez faire, mais par pitié si vous travaillez en équipe, choisissez un cycle de vie et respectez le, sauf si vous préférez travaillerr dans le chaos.
+Quand vous travaillez seul vous êtes le seul juge de ce que vous voulez faire, mais par pitié si vous travaillez en équipe, choisissez un cycle de vie et respectez le, sauf si vous préférez travailler dans le chaos.
 
 ### <center>**PARTIE II : les méthodes d'analyse et de conception**</center>
 
 
 Voici 2 principales méthodes :
-1. MERISE : méthode d'étude et de réalisation pour système d'entreprise. Méthode française très utilisée dans les
-SS2i aujourd'hui ESN. Cette approche est encore aujourd'hui très pertinente dans la conception des modèles de donnée. MERISE peut sembler moins intéressant au niveau des traitements, car cette méthode n'entre pas assez dans le détail et reste très macro en se focalisant sur les niveaux conceptuels et organisationel.
+1. MERISE : méthode d'étude et de réalisation pour système d'entreprise. Méthode française très utilisée dans les SS2i aujourd'hui ESN. Cette approche est encore aujourd'hui très pertinente dans la conception des modèles de donnée. MERISE peut sembler moins intéressant au niveau des traitements, car cette méthode n'entre pas assez dans le détail et reste très macro en se focalisant sur les niveaux conceptuels et organisationel.
 2. UML : Unified modeling langage. Très efficace pour par exemple la POO (programmation orientée objet.)
 
 Nous utiliserons un diagramme UML : le diagramme des cas d'utilisation et plusieurs diagrammes de merise mais surtout le MCD.
@@ -126,15 +121,15 @@ pour MERISE :
 
 Pour UML :
 1. En données :
-    - diagramme de classe
-    - diagramme d'objet
+    - [diagramme de classe](https://www.wikiwand.com/fr/Diagramme_de_classes)
+    - [diagramme d'objet](https://www.wikiwand.com/fr/Diagramme_d%27objets)
         - très pratique pour la POO, mais s'éloigne de la BDD. Il peut être intéressant de compléter son MCD avec ces diagrammes si l'on fait donc de la POO.
 2. En traitement :
-    - le diagramme des cas d'utilisation. Il permet de détailler l'ensemble des acteurs et des fonctionnalités de l'application. Il reprend simplement l'idée globale du MCT et du MOT et peut sembler plus facile à comprendre.
-    - diagramme de séquence
-    - diagramme d'activité
+    - [le diagramme des cas d'utilisation.](https://www.wikiwand.com/fr/Diagramme_de_cas_d%27utilisation#:~:text=Les%20diagrammes%20de%20cas%20d,d'utilisation%20sont%20plus%20appropri%C3%A9s.) Il permet de détailler l'ensemble des acteurs et des fonctionnalités de l'application. Il reprend simplement l'idée globale du MCT et du MOT et peut sembler plus facile à comprendre.
+    - [diagramme de séquence](https://www.wikiwand.com/fr/Diagramme_de_s%C3%A9quence)
+    - [diagramme d'activité](https://www.wikiwand.com/fr/Diagramme_d%27activit%C3%A9)
         - ces deux correspondent aux enchaînements des traitements
-    - diagramme d'état/transition
+    - [diagramme d'état/transition](https://www.wikiwand.com/fr/Diagramme_%C3%A9tats-transitions)
         - permet de montrer les évolutions des états des objets du logiciel.
 
 **pour aller plus loin** :
