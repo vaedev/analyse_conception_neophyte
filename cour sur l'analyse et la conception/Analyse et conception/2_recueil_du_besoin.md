@@ -6,7 +6,7 @@ Plongeons nous sans attendre dans un cas concret :
 
 Vous êtes dans une petite boite et vous en êtes l'informaticien. Votre patron vous demande de faire un gestionnaire de paie pour les employées présent. En y regardant de plus près, vous avez des fichiers exels à votre disposition.
 
-Notez que cet exemple est sur-implifié, et que la création d'une véritable fiche de paie serait bien plus complexe. Tenez donc en compte que c'est un exemple avec des données limitées pour en simplifier le principe.
+Notez que cet exemple est sur-implifié, et que la création d'une véritable fiche de paie serait bien plus complexe. Tenez donc en compte que c'est un exemple avec des données limitées pour en simplifier la démonstration.
 
 Voici les différents tableaux, la fiche des salariés :
 
@@ -68,7 +68,7 @@ Il est important de faire valider par le client chaque étape et chaque nouvelle
 
 Les clients changent souvent d'avis, et encore quand ils savent ce qu'ils veulent : restez prudent. Vous aurez certainement besoin de rajouter plusieurs points au projet pendant son avancement. Ce n'est pas possible d'accepter toutes les modifications en cours de route et ça le client peut faire la sourde oreille. "Ce n'est pas ce qui était convenu" doit être la réponse que vous devez fournir. 
 
-Ce n'est pas par ce que vous êtes le fournisseur que vous devez dire amen à toutes les envies du client. (pas gratuitement du moins...)
+Ce n'est pas par ce que vous êtes le fournisseur que vous devez dire amen à toutes les envies du client. (pas gratuitement du moins). 
 
 ____
 
